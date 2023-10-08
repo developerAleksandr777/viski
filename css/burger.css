@@ -8,7 +8,7 @@
 
 /* underline */
 
-/* .nav  a:after {
+.nav  a:after {
 	display: block;
 	position: absolute;
 	right: 0; 
@@ -19,10 +19,25 @@
 	transition: width 0.3s ease-out;
 }
 
+.nav  a::before {
+	display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+	height: 2px;
+	background-color: white;
+	content: "";
+	transition: width 0.3s ease-out;
+}
+
 .nav  a:hover:after,
 a:focus:after {
 	width: 100%;
-} */
+}
+.nav  a:hover::before,
+a:focus::before {
+	width: 100%;
+}
 
 /* underline */
 
@@ -31,14 +46,14 @@ a:focus:after {
     position: fixed;
     right: -100%;
     top: 0;  
-    width: 20%;
+    width: 25%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgb(126, 82, 6, 0.9);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 60px;
+    row-gap: 15px;
     font-size: 30px;
     transition: .6s ease-in-out;
     text-align: center;

@@ -1,42 +1,37 @@
 const buttonsInput = () => {    
 
     const data = [
-    {
-        name: 'madeira wood',
-        img:'./swiper-2-img/Kemlya_Madeira.png',
-        logo:'./swiper-2-img/madeira.png',
-        info:'Ограниченный релиз бочковой крепости, с трехлетним финишем в бочках из под крепленого вина Madeirа',
-        type: 'Слабый'
-    },
-    {
-        name: 'russian oak',
-        img:'./swiper-2-img/Kemlya_RussianOak.png',
-        logo:'./swiper-2-img/russia.png',
-        info:'Однобочковой релиз с настоящим русским характером, выдержанный в новых бочках из южного русского дуба',
-        type: 'Крепкий'
-    },
-    {
-        name: 'bog oak',
-        img:'./swiper-2-img/Kemlya_BogOak.png',
-        logo:'./swiper-2-img/bog.png',
-        info:'Релиз, не имеющий мировых аналогов, с финишной выдержкой в уникальных бочках из мореного дуба, возрастом более 2000 лет',
-        type: 'Крепкий'
-    },
-    {
-        name: 'port wood',
-        img:'./swiper-2-img/Kemlya_PortWood.png',
-        logo:'./swiper-2-img/port.png',
-        info:'Уникальный релиз, финишированный в бочках из Португалии, которые хранили крепленое вино Porto Tawny',
-        type: 'Крепкий'
-    },
-    {
-        name: 'sherry wood',
-        img:'./swiper-2-img/Kemlya_SherryWood.png',
-        logo:'./swiper-2-img/sherry.png',
-        info:'Яркий релиз с довыдержкой в испанских сигарных бочках, ранее хранивших крепленый херес Oloroso',
-        type: 'Безалкогольный'
-    },
-]
+        {
+            name: 'dewars',
+            img: './swiper-1-img/whisky-1.png',
+            type: 'Слабый',
+            info: 'Dewars',
+        },
+        {
+            name: 'special',
+            img: './swiper-1-img/whisky-2.png',
+            type: 'Крепкий',
+            info: 'Special',
+        },
+        {
+            name: 'powers',
+            img: './swiper-1-img/whisky-3.png',
+            type: 'Крепкий',
+            info: 'Powers',
+        },
+        {
+            name: 'starward',
+            img: './swiper-1-img/whisky-4.png',
+            type: 'Крепкий',
+            info: 'Starward',
+        },
+        {
+            name: 'daniel',
+            img: './swiper-1-img/whisky-5.png',
+            type: 'Безалкогольный',
+            info: 'Daniel',
+        },
+    ]
         let selectedCategory = 'Все'
     
     
@@ -47,7 +42,6 @@ const buttonsInput = () => {
                 const col = document.createElement('div')
                 const box = document.createElement('div')
                 const img = document.createElement('img')
-                const logo = document.createElement('img')
                 const paragraph = document.createElement('div')
                 const info = document.createElement('p')
         
@@ -57,10 +51,9 @@ const buttonsInput = () => {
                 paragraph.className = 'paragraph__select'
                 info.textContent = el.info
                 img.src = el.img
-                logo.src = el.logo
         
                 paragraph.append(info)
-                box.append(img, logo, paragraph)
+                box.append(img, paragraph)
                 col.append(box)
                 row.append(col)
             })
