@@ -13,7 +13,7 @@ const secondSwiper = () => {
             img: '../swiper-2-img/Kemlya_PortWood.png'
         },
         {
-            img: '../swiper-2-img/Kemlya_SherryWood.png'
+            img: './swiper-2-img/Kemlya_SherryWood.png'
         },
     ]
     let swiper = new Swiper('.swiper-two', {
