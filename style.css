@@ -111,7 +111,7 @@ header {
 /* main */
 
 #main {
-    background-image: url('/main-img/whisky-bgc.png');
+    background-image: url('../main-img/whisky-bgc.png');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px 0;
