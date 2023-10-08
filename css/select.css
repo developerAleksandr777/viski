@@ -45,7 +45,6 @@
 
 .search__engine {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     margin-bottom: 50px;
 }
@@ -59,6 +58,16 @@
     font-weight: 300;
 }
 
+.search__engine input {
+    text-align: center;
+}
+
+.line {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    margin-top: 20%;
+}
 
 #select select:not([multiple]) {
     appearance: none;

@@ -14,7 +14,21 @@ stroke-width:inherit;
 .box-contacts {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.box-contacts iframe {
+    box-shadow: 0 0 100px 10px wheat;
+}
+
+.text-contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    column-gap: 20px;
+    text-shadow: 0 0 10px wheat;
 }
 
 #location-svg,
@@ -45,5 +59,6 @@ stroke-width:inherit;
     margin-bottom: 100px;
     font-size: 30px;
     letter-spacing: 5px;
+    text-shadow: 0 0 10px wheat;
 }
 
