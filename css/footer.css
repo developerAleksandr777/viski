@@ -1,0 +1,41 @@
+#footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 0 40px 2px gray;
+}
+
+.footer-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-wrap h1 {
+    font-size: 2.5em;
+    text-shadow: 0 0 10px white;
+}
+
+.icon-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 60px;
+}
+
+.icon-footer #location-svg {
+    width: 30px;
+    height: 30px;
+}
+.icon-footer #telephone-svg {
+    width: 30px;
+    height: 30px;
+}
+.icon-footer #whatsapp-svg {
+    width: 30px;
+    height: 30px;
+}
+.icon-footer #telegram-svg {
+    width: 30px;
+    height: 30px;
+}
