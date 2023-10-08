@@ -1,33 +1,33 @@
 const dataImgFavorite = [
     {
-        img: '../favorite-img/1.png',
+        img: './favorite-img/1.png',
     },
     {
-        img: '../favorite-img/2.png',
+        img: './favorite-img/2.png',
     },
     {
-        img: '../favorite-img/3.png',
+        img: './favorite-img/3.png',
     },
     {
-        img: '../favorite-img/4.png',
+        img: './favorite-img/4.png',
     },
     {
-        img: '../favorite-img/5.png',
+        img: './favorite-img/5.png',
     },
     {
-        img: '../favorite-img/6.png',
+        img: './favorite-img/6.png',
     },
     {
-        img: '../favorite-img/7.png',
+        img: './favorite-img/7.png',
     },
     {
-        img: '../favorite-img/8.png',
+        img: './favorite-img/8.png',
     },
     {
-        img: '../favorite-img/9.png',
+        img: './favorite-img/9.png',
     },
     {
-        img: '../favorite-img/10.png',
+        img: './favorite-img/10.png',
     },
 ]
 
