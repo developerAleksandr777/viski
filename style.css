@@ -111,11 +111,11 @@ header {
 /* main */
 
 #main {
-    background-image: url('../Whisky\ project/main-img/whisky-bgc.png');
+    background-image: url('./main-img/whisky-bgc.png');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px 0;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .wrapper {
