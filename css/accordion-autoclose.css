@@ -1,0 +1,76 @@
+#accordion-auto {
+    padding: 100px 0;
+    background-image: url('../accordion-img/fon-accordion.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#accordion-auto p {
+    color: white;
+    text-shadow: 
+    -0   -1px 0   #000000,
+     0   -1px 0   #000000,
+    -0    1px 0   #000000,
+     0    1px 0   #000000,
+    -1px -0   0   #000000,
+     1px -0   0   #000000,
+    -1px  0   0   #000000,
+     1px  0   0   #000000,
+    -1px -1px 0   #000000,
+     1px -1px 0   #000000,
+    -1px  1px 0   #000000,
+     1px  1px 0   #000000,
+    -1px -1px 0   #000000,
+     1px -1px 0   #000000,
+    -1px  1px 0   #000000,
+     1px  1px 0   #000000;
+}
+
+.accordion__name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #333333, #dd1818);
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(165, 100, 15);
+}
+
+.accordion__content {
+    max-height: 0; 
+    overflow: hidden; 
+    transition: 1s;
+    margin: 10px 0;
+}
+
+.infoBlock {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.plus {
+    width: 30px;
+    height: 30px;
+    transition: 1s;
+}
+
+.accordion__wrap.accordion__active .accordion__name {
+    box-shadow: 0 0 10px 10px rgb(71, 28, 28);
+}
+
+.acc-title {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.accordion__wrap.accordion__active .accordion__content {
+    max-height: 1000px;
+    transition: 2s;
+    box-shadow: 0 0 10px 1px lightgoldenrodyellow;
+}
+
+.accordion__wrap.accordion__active .plus {
+    transform: rotate(45deg);
+}
