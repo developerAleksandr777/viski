@@ -14,6 +14,7 @@ const dataImgFavorite = [
     {
         img: './favorite-img/5.png',
     },
+    // ,
     {
         img: './favorite-img/6.png',
     },
