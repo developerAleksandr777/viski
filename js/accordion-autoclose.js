@@ -37,7 +37,7 @@ const accordionAutoclose = () => {
             title.textContent = el.title
             title.className = 'acc-title'
             plus.src = './accordion-img/plus-1469-svgrepo-com.svg'
-    
+    // x
             accordionWrap.className = 'accordion__wrap'
             accordionName.className = 'accordion__name'
             accordionContent.className = 'accordion__content'
