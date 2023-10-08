@@ -3,6 +3,7 @@
 const selectOption = () => {
 
     const data = [
+        // x
     {
         name: 'madeira wood',
         img:'./swiper-2-img/Kemlya_Madeira.png',
