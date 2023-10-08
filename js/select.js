@@ -1,4 +1,8 @@
-const data = [
+
+
+const selectOption = () => {
+
+    const data = [
     {
         name: 'madeira wood',
         img:'./swiper-2-img/Kemlya_Madeira.png',
@@ -35,8 +39,6 @@ const data = [
         type: 'Безалкогольный'
     },
 ]
-
-const selectOption = () => {
 
     let selectedCategory = 'Все'
 
