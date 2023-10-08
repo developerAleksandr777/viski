@@ -3,36 +3,36 @@ const buttonsInput = () => {
     const data = [
     {
         name: 'madeira wood',
-        img:'../swiper-2-img/Kemlya_Madeira.png',
-        logo:'../swiper-2-img/madeira.png',
+        img:'./swiper-2-img/Kemlya_Madeira.png',
+        logo:'./swiper-2-img/madeira.png',
         info:'Ограниченный релиз бочковой крепости, с трехлетним финишем в бочках из под крепленого вина Madeirа',
         type: 'Слабый'
     },
     {
         name: 'russian oak',
-        img:'../swiper-2-img/Kemlya_RussianOak.png',
-        logo:'../swiper-2-img/russia.png',
+        img:'./swiper-2-img/Kemlya_RussianOak.png',
+        logo:'./swiper-2-img/russia.png',
         info:'Однобочковой релиз с настоящим русским характером, выдержанный в новых бочках из южного русского дуба',
         type: 'Крепкий'
     },
     {
         name: 'bog oak',
-        img:'../swiper-2-img/Kemlya_BogOak.png',
-        logo:'../swiper-2-img/bog.png',
+        img:'./swiper-2-img/Kemlya_BogOak.png',
+        logo:'./swiper-2-img/bog.png',
         info:'Релиз, не имеющий мировых аналогов, с финишной выдержкой в уникальных бочках из мореного дуба, возрастом более 2000 лет',
         type: 'Крепкий'
     },
     {
         name: 'port wood',
-        img:'../swiper-2-img/Kemlya_PortWood.png',
-        logo:'../swiper-2-img/port.png',
+        img:'./swiper-2-img/Kemlya_PortWood.png',
+        logo:'./swiper-2-img/port.png',
         info:'Уникальный релиз, финишированный в бочках из Португалии, которые хранили крепленое вино Porto Tawny',
         type: 'Крепкий'
     },
     {
         name: 'sherry wood',
-        img:'../swiper-2-img/Kemlya_SherryWood.png',
-        logo:'../swiper-2-img/sherry.png',
+        img:'./swiper-2-img/Kemlya_SherryWood.png',
+        logo:'./swiper-2-img/sherry.png',
         info:'Яркий релиз с довыдержкой в испанских сигарных бочках, ранее хранивших крепленый херес Oloroso',
         type: 'Безалкогольный'
     },
