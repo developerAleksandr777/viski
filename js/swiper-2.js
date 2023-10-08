@@ -4,16 +4,16 @@ const secondSwiper = () => {
             img: '/swiper-2-img/Kemlya_Madeira.png'
         },
         {
-            img: '/swiper-2-img/Kemlya_BogOak.png'
+            img: '../swiper-2-img/Kemlya_BogOak.png'
         },
         {
-            img: '/swiper-2-img/Kemlya_RussianOak.png'
+            img: '../swiper-2-img/Kemlya_RussianOak.png'
         },
         {
-            img: '/swiper-2-img/Kemlya_PortWood.png'
+            img: '../swiper-2-img/Kemlya_PortWood.png'
         },
         {
-            img: '/swiper-2-img/Kemlya_SherryWood.png'
+            img: '../swiper-2-img/Kemlya_SherryWood.png'
         },
     ]
     let swiper = new Swiper('.swiper-two', {

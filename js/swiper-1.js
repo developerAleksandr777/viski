@@ -1,19 +1,19 @@
 const firstSwiper = () => {
     const dataWhisky = [
         {
-            img: '../swiper-1-img/whisky-1.png'
+            img: './swiper-1-img/whisky-1.png'
         },
         {
-            img: '../swiper-1-img/whisky-2.png'
+            img: './swiper-1-img/whisky-2.png'
         },
         {
-            img: '../swiper-1-img/whisky-3.png'
+            img: './swiper-1-img/whisky-3.png'
         },
         {
-            img: '../swiper-1-img/whisky-4.png'
+            img: './swiper-1-img/whisky-4.png'
         },
         {
-            img: '../swiper-1-img/whisky-5.png'
+            img: './swiper-1-img/whisky-5.png'
         },
     ]
 
