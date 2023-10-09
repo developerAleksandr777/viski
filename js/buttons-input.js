@@ -47,7 +47,7 @@ const buttonsInput = () => {
         
                 col.className = 'col-2'
                 box.className = 'box__select'
-        
+                
                 paragraph.className = 'paragraph__select'
                 info.textContent = el.info
                 img.src = el.img
