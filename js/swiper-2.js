@@ -9,7 +9,7 @@ let swiper = new Swiper('.swiper-two', {
     grabCursor: true,
     slidesPerView: 3,
     loop:true,
-    // centeredSlides: true,
+    centeredSlides: true,
     breakpoints: {
       320: {
         slidesPerView: 1,
