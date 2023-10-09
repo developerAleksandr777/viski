@@ -11,6 +11,8 @@
     height: 500px;
     border: 1px solid black;
     background-image: url('../accordion-img/fon-accordion.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #swiper-1 .swiper-slide  {

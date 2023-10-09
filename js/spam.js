@@ -18,7 +18,7 @@ const spam = () => {
             modal__spam.classList.remove('modal-spam-active')        
         })
 
-    modal.addEventListener('click', (e) => {
+        modal__spam.addEventListener('click', (e) => {
         e.stopPropagation()
     })
 }

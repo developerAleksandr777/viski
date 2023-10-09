@@ -30,8 +30,24 @@ const firstSwiper = () => {
             },
             spaceBetween: 30,
             grabCursor: true,
-            // slidesPerView: 3,
-            // slidesPerGroup: 4
+            breakpoints: {
+                390: {
+                  slidesPerView: 1,
+                  spaceBetween: 20
+                },
+                576: {
+                  slidesPerView: 1,
+                  spaceBetween: 30
+                },
+                768: {
+                  slidesPerView: 1,
+                  spaceBetween: 40
+                }, 
+                996: {
+                    slidesPerView: 1,
+                    spaceBetween: 50
+                  },
+            }
         })
 
     dataWhisky.forEach(el => {

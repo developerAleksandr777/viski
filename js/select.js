@@ -57,7 +57,9 @@ const selectOption = () => {
     
             col.className = 'col-2'
             box.className = 'box__select'
+            logo.className = 'logo-in-select'
     
+            img.className = 'image-in-select'
             paragraph.className = 'paragraph__select'
             info.textContent = el.info
             img.src = el.img

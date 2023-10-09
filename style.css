@@ -6,6 +6,7 @@
 }
 
 * {
+    outline: 1px solid red;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -49,8 +50,6 @@ a {
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -15px;
-    row-gap: 30px;
 }
 
 .col-6 {
